@@ -12,7 +12,6 @@ public class CarMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Triggered");
         if (other.gameObject.CompareTag("CarDestroyer"))
         {
             Destroy(gameObject);
