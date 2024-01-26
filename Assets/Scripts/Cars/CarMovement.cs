@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CarMovement : MonoBehaviour
@@ -8,16 +6,10 @@ public class CarMovement : MonoBehaviour
 
     void Start()
     {
-        
     }
 
-    void fixedUpdate()
+    void FixedUpdate()
     {
-        transform.position += transform.forward * SPEED * Time.deltaTime;
-    }
-
-    void Update()
-    {
-        
+        transform.Translate(new Vector3(0,-1,0) * SPEED * Time.deltaTime);
     }
 }
