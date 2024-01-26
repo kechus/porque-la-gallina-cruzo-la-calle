@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Piso
+    uniqueID: 118332449
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
