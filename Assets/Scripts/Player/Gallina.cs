@@ -51,6 +51,7 @@ public class Gallina : MonoBehaviour
         {
             animator.SetTrigger("Die");
             die = true;
+            GetComponent<AudioSource>().Play(0);
             Invoke(nameof(respawn), 1f);
         }
     }
