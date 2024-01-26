@@ -51,6 +51,14 @@ public class Gallina : MonoBehaviour
         {
             animator.SetTrigger("Die");
             die = true;
+            Invoke(nameof(respawn), 1f);
         }
+    }
+
+    private void respawn()
+    {
+        Destroy(gameObject);
+        FindObjectOfType<PlayerSpawn>().createPlayer();
+        die = false;
     }
 }
