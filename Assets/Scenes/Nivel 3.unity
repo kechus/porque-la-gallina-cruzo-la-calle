@@ -12278,6 +12278,14 @@ PrefabInstance:
       propertyPath: m_text
       value: Para llegar al "otro lado"
       objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_fontSize
+      value: 199.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.x
+      value: -2366.86
+      objectReference: {fileID: 0}
     - target: {fileID: 2264711365028471115, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_Name
       value: MainMenu
