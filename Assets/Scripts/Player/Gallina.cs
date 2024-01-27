@@ -71,6 +71,17 @@ public class Gallina : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Carro")
+        {
+            animator.SetTrigger("Die");
+            die = true;
+            GetComponent<AudioSource>().Play(0);
+            Invoke(nameof(respawn), 1f);
+        }
+    }
+
     private void punchline()
     {
         GameController.CurrentGameState = GameController.GameState.FinishLine;
