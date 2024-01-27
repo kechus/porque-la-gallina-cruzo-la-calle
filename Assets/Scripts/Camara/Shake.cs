@@ -11,7 +11,7 @@ public class Shake : MonoBehaviour
 	public float shakeDuration = 0f;
 	
 	// Amplitude of the shake. A larger value shakes the camera harder.
-	public float shakeAmount = 0.25f;
+	public float shakeAmount = 0.1f;
 	public float decreaseFactor = 1.0f;
 	GameObject player;
 	
