@@ -4,6 +4,8 @@ public class DestructableCar : MonoBehaviour
 {
     public int Direction = 0;
     public int Speed = 0;
+    [SerializeField]
+    public AudioClip[] CrashSounds;
 
     void Start(){
     }
@@ -17,7 +19,16 @@ public class DestructableCar : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            Speed = 0;
+            GetComponent<SpriteRenderer>().sortingOrder = 2;
+            GetComponent<AudioSource>().PlayOneShot(CrashSounds[Random.Range(0, CrashSounds.Length)]);
+            GetComponent<Animator>().enabled = true;
         }
     }
+
+    void DestroyCar()
+    {
+        Destroy(gameObject);
+    }
 }
+

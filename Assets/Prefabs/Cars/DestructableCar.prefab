@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7472161780387995047}
   - component: {fileID: -3397362593013251169}
   - component: {fileID: 3221100379631736106}
+  - component: {fileID: 3263785708068441363}
   m_Layer: 0
   m_Name: DestructableCar
   m_TagString: Carro
@@ -245,3 +246,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Direction: 0
   Speed: 0
+  CrashSounds:
+  - {fileID: 8300000, guid: 26ac8a11f58cf484593acb0318a7b001, type: 3}
+  - {fileID: 8300000, guid: 6c949d4d8bde7e94ca43f45a5c1ad3d9, type: 3}
+--- !u!95 &3263785708068441363
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472161780387995067}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9eebae731fbc9d44c8a8fce654dd29a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
