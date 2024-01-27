@@ -21,7 +21,7 @@ public class Gallina : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameController.CurrentGameState != GameController.GameState.Game)
+        if (GameController.CurrentGameState != GameController.GameState.Game)
         {
             animator.SetBool("Move", false);
             return;
@@ -59,8 +59,21 @@ public class Gallina : MonoBehaviour
             animator.SetTrigger("Die");
             die = true;
             GetComponent<AudioSource>().Play(0);
-            Invoke(nameof(respawn), 1f);
+
+            if (collision.gameObject.name == "Camionsote(Clone)")
+            {
+                Invoke(nameof(punchline), 1f);
+            }
+            else
+            {
+                Invoke(nameof(respawn), 1f);
+            } 
         }
+    }
+
+    private void punchline()
+    {
+        
     }
 
     private void respawn()
