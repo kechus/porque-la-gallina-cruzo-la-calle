@@ -12150,19 +12150,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: Por que el pato cruzo la calle?
+      value: Por que la gallina NO cruzo la calle?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_fontSize
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: Porque la gallina estaba de vacaciones
+      value: Porque habia una rosticeria del otro lado
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 149.8
+      value: 176.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.x
+      value: -2805.447
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.z
+      value: -2794.9922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364704204358, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.5289917
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204358, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711365028202091, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3423.7515
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711365028202091, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -134.39514
       objectReference: {fileID: 0}
     - target: {fileID: 2264711365028202091, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -12258,7 +12286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2264711365550801816, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5888645022449492997, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -12278,7 +12306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8832352777192754099, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}

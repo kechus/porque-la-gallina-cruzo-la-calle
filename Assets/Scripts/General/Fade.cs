@@ -36,5 +36,13 @@ public class Fade : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 3");
             return;
         }
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Nivel 3"){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 4");
+            return;
+        }
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Nivel 4"){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 5");
+            return;
+        }
     }
 }
