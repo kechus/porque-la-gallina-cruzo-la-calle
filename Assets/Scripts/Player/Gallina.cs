@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Gallina : MonoBehaviour
 {
+    //-7.5 , 0
     Vector2 movement;
     Rigidbody2D RB;
     Animator animator;
@@ -22,6 +23,7 @@ public class Gallina : MonoBehaviour
     {
         if(GameController.CurrentGameState != GameController.GameState.Game)
         {
+            animator.SetBool("Move", false);
             return;
         }
 
