@@ -5905,7 +5905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222076332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.96, y: -0.89, z: 0}
+  m_LocalPosition: {x: 2.34, y: -0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6611,7 +6611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801225136}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.53, y: 1.6750953, z: -0.31169823}
+  m_LocalPosition: {x: 33.74, y: 1.6750953, z: -0.31169823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7046,7 +7046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 940713087}
   - component: {fileID: 940713088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarreraSuperior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7513,7 +7513,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 6d9f6c7b27b36394ea5c884998eedd87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11371,7 +11371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580791158}
   - component: {fileID: 1580791159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarreraInferior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11760,11 +11760,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 127627770930148072, guid: a171f66bb3b0e6a41888eeafb7c1c1d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.54
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 127627770930148072, guid: a171f66bb3b0e6a41888eeafb7c1c1d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.026821494
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 127627770930148072, guid: a171f66bb3b0e6a41888eeafb7c1c1d5, type: 3}
       propertyPath: m_LocalPosition.z
