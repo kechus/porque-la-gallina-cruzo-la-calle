@@ -73,7 +73,7 @@ public class Gallina : MonoBehaviour
 
     private void punchline()
     {
-        
+        GameController.CurrentGameState = GameController.GameState.FinishLine;
     }
 
     private void respawn()
