@@ -13,6 +13,7 @@ public class Shake : MonoBehaviour
 	// Amplitude of the shake. A larger value shakes the camera harder.
 	public float shakeAmount = 0.25f;
 	public float decreaseFactor = 1.0f;
+	GameObject player;
 	
 	Vector3 originalPos;
 	
@@ -26,21 +27,26 @@ public class Shake : MonoBehaviour
 	
 	void OnEnable()
 	{
-		originalPos = camTransform.localPosition;
+        originalPos = camTransform.localPosition;
 	}
 
-	void Update()
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    void Update()
 	{
 		if (shakeDuration > 0)
 		{
-			camTransform.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
+			camTransform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10) + Random.insideUnitSphere * shakeAmount;
 			
 			shakeDuration -= Time.deltaTime * decreaseFactor;
 		}
 		else
 		{
 			shakeDuration = 0f;
-			camTransform.localPosition = originalPos;
-		}
+			camTransform.position = new Vector3(player.transform.position.x, originalPos.y, -10);
+        }
 	}
 }

@@ -78,8 +78,22 @@ public class Gallina : MonoBehaviour
 
     private void respawn()
     {
+        if(FindObjectOfType<cheff>() != null)
+        {
+            if(GameObject.Find("Cheffs(Clone)") != null)
+            {
+                Destroy(GameObject.Find("Cheffs(Clone)"));
+                GameObject.Find("LANES").SetActive(true);
+            }
+        }
+
         Destroy(gameObject);
         FindObjectOfType<PlayerSpawn>().createPlayer();
         die = false;
+    }
+
+    public bool getDie()
+    {
+        return die;
     }
 }
