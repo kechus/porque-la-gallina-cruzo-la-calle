@@ -20,10 +20,10 @@ public class Gallina : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameController.CurrentGameState != GameController.GameState.Game)
-        {
-            return;
-        }
+        //if(GameController.CurrentGameState != GameController.GameState.Game)
+        //{
+        //    return;
+        //}
 
         //Obtener input de usuario
         movement.x = Input.GetAxisRaw("Horizontal");
