@@ -12,7 +12,7 @@ public class FinishLine : MonoBehaviour
         {
             if(SceneManager.GetActiveScene().name == "Nivel 4")
             {
-                //GameObject.Find()
+                Destroy(GameObject.Find("Cheffs(Clone)"));
             }
 
             GameController.CurrentGameState = GameController.GameState.FinishLine;

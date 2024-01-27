@@ -26,7 +26,7 @@ public class KFC_Attack : MonoBehaviour
         if(collision.gameObject.tag == "Player" && FindObjectOfType<cheff>() == null)
         {
             lines.SetActive(false);
-            Instantiate(cheffs, new Vector2(12.8f, 3.22f), this.transform.rotation);
+            Instantiate(cheffs, new Vector2(11.26f, 1.07f), this.transform.rotation);
         }
     }
 }
