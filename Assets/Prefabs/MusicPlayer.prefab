@@ -141,3 +141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c5534e42f200f548b99c7643fa1d82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainMenuTheme: {fileID: 8300000, guid: b9971c581cb28104fa0842c4963472a7, type: 3}
+  GameTheme: {fileID: 8300000, guid: cbf846094d740e34aa0ae81ebc36e3d7, type: 3}
+  Roster: {fileID: 8300000, guid: db8330082fa6a9f4e9f47e775eb23b37, type: 3}
