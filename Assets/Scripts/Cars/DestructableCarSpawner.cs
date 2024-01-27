@@ -11,8 +11,6 @@ public class DestructableCarSpawner : MonoBehaviour
     [SerializeField]
     public GameObject CarPrefab;
 
-
-    int lastDirection;
     float Timer = 0f;
     readonly float SpawnRate = 3f;
 
@@ -36,12 +34,7 @@ public class DestructableCarSpawner : MonoBehaviour
 
     void CreateCar()
     {
-        var direction = Random.Range(0, 2) == 0 ? -1 : 1;
-        if(direction != lastDirection)
-        {
-            direction *= -1;
-        }
-        lastDirection = direction;
+        var direction = 1;
 
         var speed = Random.Range(0, 2) == 0 ? 6 : 4;
 
