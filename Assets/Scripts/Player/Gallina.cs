@@ -20,7 +20,7 @@ public class Gallina : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameController.CurrentGameState == GameController.GameState.MainMenu)
+        if(GameController.CurrentGameState != GameController.GameState.Game)
         {
             return;
         }

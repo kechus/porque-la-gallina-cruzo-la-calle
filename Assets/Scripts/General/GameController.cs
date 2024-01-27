@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     {
         MainMenu,
         Game,
+        FinishLine,
     }
 
     private static GameController Instance;
