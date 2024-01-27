@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Return))
             {
+                Started = true;
                 GetComponent<Animator>().SetTrigger("started");
             }
         }
