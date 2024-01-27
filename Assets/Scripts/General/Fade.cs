@@ -27,6 +27,14 @@ public class Fade : MonoBehaviour
 
     void LoadScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 2");
+        GameController.CurrentGameState = GameController.GameState.MainMenu;
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Nivel 1"){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 2");
+            return;
+        }
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Nivel 2"){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 3");
+            return;
+        }
     }
 }
