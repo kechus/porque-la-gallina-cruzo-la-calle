@@ -66,7 +66,7 @@ public class CinematicController : MonoBehaviour
 
     void CloseGame()
     {
-        Application.Quit();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 1");
     }
 
     void ShowCredits()
