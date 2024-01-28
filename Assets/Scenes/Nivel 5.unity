@@ -23604,6 +23604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 5784821815591401234, guid: 32a8386ac64aa0b48805cde951839d5a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 597470333, guid: 38c608d5738c29342868bcd8a381f881, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32a8386ac64aa0b48805cde951839d5a, type: 3}
 --- !u!224 &2070993219 stripped
