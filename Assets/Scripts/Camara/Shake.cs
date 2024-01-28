@@ -39,7 +39,7 @@ public class Shake : MonoBehaviour
 	{
 		if (shakeDuration > 0)
 		{
-			camTransform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10) + Random.insideUnitSphere * shakeAmount;
+			camTransform.position = new Vector3(player.transform.position.x, originalPos.y, -10) + Random.insideUnitSphere * shakeAmount;
 			
 			shakeDuration -= Time.deltaTime * decreaseFactor;
 		}
