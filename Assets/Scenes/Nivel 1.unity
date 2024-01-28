@@ -11719,6 +11719,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishLine
       objectReference: {fileID: 0}
+    - target: {fileID: 7282425588012064922, guid: 1891e22352829f1459db5aab0afabae4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7025528
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282425588012064922, guid: 1891e22352829f1459db5aab0afabae4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.673996
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1891e22352829f1459db5aab0afabae4, type: 3}
 --- !u!1001 &7867329705236083318
