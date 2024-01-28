@@ -23925,11 +23925,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: "Porque era el d\xEDa libre de la gallina"
+      value: "Porque las gallinas todav\xEDa no exist\xEDan"
       objectReference: {fileID: 0}
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 148.7
+      value: 137.8
       objectReference: {fileID: 0}
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_margin.x
@@ -23937,7 +23937,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_margin.z
-      value: -2378.882
+      value: -2361.2837
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
