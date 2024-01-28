@@ -24090,7 +24090,7 @@ PrefabInstance:
     - target: {fileID: 4370768812611376402, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8abbd4119e2cd534ba437892d1072800, type: 3}
+      objectReference: {fileID: 21300000, guid: bb58383a200c8c240a0b720891a7416d, type: 3}
     - target: {fileID: 5888645022449492997, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 481
