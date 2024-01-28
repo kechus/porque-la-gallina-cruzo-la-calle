@@ -29,10 +29,14 @@ public class CinematicController : MonoBehaviour
         animator = GallinaInstance.GetComponent<Animator>();
         //populate credits messages
         creditsMessages.Enqueue("Global Game Jam 2024\n\n\"Hazme reir\"\n");
-        creditsMessages.Enqueue("Programacion:\nDaubeny\nKechus\nOscarMaciasProf");
-        creditsMessages.Enqueue("Splash arts:\nCarol");
-        creditsMessages.Enqueue("Audio y sonidos:\nMuchas personas");
-        creditsMessages.Enqueue("Sprites:\nMuchas personas");
+        creditsMessages.Enqueue("Programacion: \n Daubeny \n Kechus \n OscarMaciasProf");
+        creditsMessages.Enqueue("Splash art: \n Carol");
+        creditsMessages.Enqueue("Sprites: \n OscarMaciasProf \n Cup Nooble \n shubibubi");
+        creditsMessages.Enqueue("Sprites:\n vmiinv \n SamueLee \n Umz \n");
+        creditsMessages.Enqueue("Audio y sonidos:\n Owen_Garcia \n Dannaye \n Eponn");
+        creditsMessages.Enqueue("Audio y sonidos:\n PNMCarrieRailfan \n Eponn \n magnuswake");
+        creditsMessages.Enqueue("Audio y sonidos:\n Scpsea \n Tabby+Gus \n magnuswake");
+        creditsMessages.Enqueue("Audio y sonidos:\n D4XX \n Preacher13 \n Kevin MacLeod ");
     }
 
     void Update()
@@ -57,7 +61,7 @@ public class CinematicController : MonoBehaviour
         var mesh = creditos.GetComponentInChildren<TextMeshProUGUI>();
         var message = creditsMessages.Dequeue();
         mesh.text = message;
-        Invoke(nameof(ShowCredits), 6f);
+        Invoke(nameof(ShowCredits), 4f);
     }
 
     void CloseGame()
@@ -83,12 +87,9 @@ public class CinematicController : MonoBehaviour
     void StartCinematic()
     {
         animator.SetBool("Move", true);
-        GallinaInstance.GetComponent<Gallina>().enabled = true;
         MusicController.PlayGameTheme();
         hasStarted = true;
 
-        // creditsTextMesh = creditos.GetComponent<TextMeshPro>();
-        // messageText = GameObject.Find("Message").GetComponent<TMP_Text>();
         creditos.SetActive(true);
         creditsAnimator = creditos.GetComponent<Animator>();
 
