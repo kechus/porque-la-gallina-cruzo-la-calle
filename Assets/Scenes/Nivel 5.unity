@@ -24075,19 +24075,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: Porque era el dia libre de la gallina
+      value: "Porque era el d\xEDa libre de la gallina"
       objectReference: {fileID: 0}
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 149.8
+      value: 148.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.x
+      value: -2376.1067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.z
+      value: -2378.882
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: Por que el dinosaurio cruzo la calle?
+      value: "\xBFPor qu\xE9 el dinosaurio cruz\xF3 la calle?"
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 95
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_margin.y
@@ -24095,15 +24103,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_margin.z
-      value: -1429.8091
+      value: -1512.024
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSizeMin
-      value: 95
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512747, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2354
+      value: -2568
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
@@ -24223,15 +24231,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2264711365550801816, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4370768812611376402, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8abbd4119e2cd534ba437892d1072800, type: 3}
     - target: {fileID: 5888645022449492997, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 513
+      value: 481
       objectReference: {fileID: 0}
     - target: {fileID: 5888645022449492997, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 221
+      value: -347
       objectReference: {fileID: 0}
     - target: {fileID: 6232695393583274092, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_SizeDelta.y
@@ -24247,7 +24259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8832352777192754099, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}

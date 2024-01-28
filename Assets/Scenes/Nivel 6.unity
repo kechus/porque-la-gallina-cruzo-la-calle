@@ -14502,15 +14502,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: QUE?
+      value: "\xA1\xBFQUE?!"
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: El carro las gallinas cruza por que?
+      value: "\xBFEl carro las gallinas cruza por qu\xE9?"
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 149.8
+      value: 141.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.x
+      value: -2359.6082
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.y
+      value: 24.250069
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.z
+      value: -2362.087
       objectReference: {fileID: 0}
     - target: {fileID: 2264711365028471115, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_Name

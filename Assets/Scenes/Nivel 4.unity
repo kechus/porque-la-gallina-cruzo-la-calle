@@ -13048,11 +13048,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 167.15
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.w
+      value: 5.701477
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.x
+      value: -2369.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.y
+      value: 5.701111
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_margin.z
+      value: -2376.1787
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: Por que la gallina NO cruzo la calle?
+      value: "\xBFPor qu\xE9 la gallina NO cruz\xF3 la calle?"
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364607512746, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize

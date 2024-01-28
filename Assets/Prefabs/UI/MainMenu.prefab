@@ -253,10 +253,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Por que la gallina cruzo la calle?
+  m_text: "\xBFPor qu\xE9 la gallina cruz\xF3 la calle?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb94b99749c6b4f41a501c1ac9c9b6e5, type: 2}
-  m_sharedMaterial: {fileID: 3573528256870531882, guid: cb94b99749c6b4f41a501c1ac9c9b6e5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: de1d79b6ca91bbc4b9f1308ebaefd590, type: 2}
+  m_sharedMaterial: {fileID: -7908369909053264203, guid: de1d79b6ca91bbc4b9f1308ebaefd590, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -390,8 +390,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Para llegar al otro lado
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb94b99749c6b4f41a501c1ac9c9b6e5, type: 2}
-  m_sharedMaterial: {fileID: 3573528256870531882, guid: cb94b99749c6b4f41a501c1ac9c9b6e5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: de1d79b6ca91bbc4b9f1308ebaefd590, type: 2}
+  m_sharedMaterial: {fileID: -7908369909053264203, guid: de1d79b6ca91bbc4b9f1308ebaefd590, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1088,8 +1088,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Para llegar al otro lado
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb94b99749c6b4f41a501c1ac9c9b6e5, type: 2}
-  m_sharedMaterial: {fileID: 3573528256870531882, guid: cb94b99749c6b4f41a501c1ac9c9b6e5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: de1d79b6ca91bbc4b9f1308ebaefd590, type: 2}
+  m_sharedMaterial: {fileID: -7908369909053264203, guid: de1d79b6ca91bbc4b9f1308ebaefd590, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
