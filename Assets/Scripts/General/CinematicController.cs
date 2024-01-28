@@ -30,16 +30,15 @@ public class CinematicController : MonoBehaviour
         //populate credits messages
         creditsMessages.Enqueue("Global Game Jam 2024\n\n\"Hazme reír\"\n");
         creditsMessages.Enqueue("Programación: \n Daubeny \n Kechus");
-        creditsMessages.Enqueue("Splash art: \n Carol");
+        creditsMessages.Enqueue("Splash art: \n Caribu");
         creditsMessages.Enqueue("Sprites: \n OscarMaciasProf");
         
         creditsMessages.Enqueue("Assets gratis encontrados en:\n itch.io \n opengameart.org \n freesound.org \n");
         creditsMessages.Enqueue("Sprites: \n Cup Nooble \n shubibubi");
         creditsMessages.Enqueue("Sprites:\n vmiinv \n SamueLee \n Umz \n");
-        creditsMessages.Enqueue("Sprites gratis:\n vmiinv \n SamueLee \n Umz \n");
         creditsMessages.Enqueue("Audio:\n Owen_Garcia \n Dannaye \n Eponn");
         creditsMessages.Enqueue("Audio:\n PNMCarrieRailfan \n Eponn \n magnuswake");
-        creditsMessages.Enqueue("Audio:\n Scpsea \n Tabby+Gus \n magnuswake");
+        creditsMessages.Enqueue("Audio:\n Scpsea \n Tabby+Gus");
         creditsMessages.Enqueue("Audio:\n D4XX \n Preacher13 \n Kevin MacLeod ");
     }
 

@@ -14348,6 +14348,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1567107295}
     m_Modifications:
+    - target: {fileID: 2042051428354073695, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_text
+      value: ??????
+      objectReference: {fileID: 0}
     - target: {fileID: 2264711364247176966, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.5
@@ -14366,11 +14370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_text
-      value: "\xBFEl carro las gallinas cruza por qu\xE9?"
+      value: ??????
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_fontSize
-      value: 141.65
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 2264711364704204353, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_margin.x
@@ -14472,9 +14476,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8832352777192754099, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+    - target: {fileID: 2264711365550801816, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4370768812611376402, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55bb36e9c8abf8143a873096acaf3dd2, type: 3}
+    - target: {fileID: 5888645022449492997, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -536
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888645022449492997, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -577
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232695393583274092, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232695393583274092, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -116
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261280512529517752, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -995
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832352777192754099, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02d5f21b4a0942ada2cb5664784fb, type: 3}
