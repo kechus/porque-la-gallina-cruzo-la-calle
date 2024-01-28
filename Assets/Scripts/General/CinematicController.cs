@@ -28,15 +28,19 @@ public class CinematicController : MonoBehaviour
         GallinaInstance.GetComponent<Gallina>().enabled = false;
         animator = GallinaInstance.GetComponent<Animator>();
         //populate credits messages
-        creditsMessages.Enqueue("Global Game Jam 2024\n\n\"Hazme reir\"\n");
-        creditsMessages.Enqueue("Programacion: \n Daubeny \n Kechus \n OscarMaciasProf");
+        creditsMessages.Enqueue("Global Game Jam 2024\n\n\"Hazme reír\"\n");
+        creditsMessages.Enqueue("Programación: \n Daubeny \n Kechus");
         creditsMessages.Enqueue("Splash art: \n Carol");
-        creditsMessages.Enqueue("Sprites: \n OscarMaciasProf \n Cup Nooble \n shubibubi");
+        creditsMessages.Enqueue("Sprites: \n OscarMaciasProf");
+        
+        creditsMessages.Enqueue("Assets gratis encontrados en:\n itch.io \n opengameart.org \n freesound.org \n");
+        creditsMessages.Enqueue("Sprites: \n Cup Nooble \n shubibubi");
         creditsMessages.Enqueue("Sprites:\n vmiinv \n SamueLee \n Umz \n");
-        creditsMessages.Enqueue("Audio y sonidos:\n Owen_Garcia \n Dannaye \n Eponn");
-        creditsMessages.Enqueue("Audio y sonidos:\n PNMCarrieRailfan \n Eponn \n magnuswake");
-        creditsMessages.Enqueue("Audio y sonidos:\n Scpsea \n Tabby+Gus \n magnuswake");
-        creditsMessages.Enqueue("Audio y sonidos:\n D4XX \n Preacher13 \n Kevin MacLeod ");
+        creditsMessages.Enqueue("Sprites gratis:\n vmiinv \n SamueLee \n Umz \n");
+        creditsMessages.Enqueue("Audio:\n Owen_Garcia \n Dannaye \n Eponn");
+        creditsMessages.Enqueue("Audio:\n PNMCarrieRailfan \n Eponn \n magnuswake");
+        creditsMessages.Enqueue("Audio:\n Scpsea \n Tabby+Gus \n magnuswake");
+        creditsMessages.Enqueue("Audio:\n D4XX \n Preacher13 \n Kevin MacLeod ");
     }
 
     void Update()

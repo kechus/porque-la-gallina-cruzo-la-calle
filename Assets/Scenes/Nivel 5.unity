@@ -10244,7 +10244,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4077058336974374589, guid: 7530ac5467a38c940b2e4d8700d49a3c, type: 3}
   m_PrefabInstance: {fileID: 58199213}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &796575516
+--- !u!114 &796575521
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10258,7 +10258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camTransform: {fileID: 0}
   shakeDuration: 0
-  shakeAmount: 0.7
+  shakeAmount: 0.1
   decreaseFactor: 1
 --- !u!1 &878149177
 GameObject:

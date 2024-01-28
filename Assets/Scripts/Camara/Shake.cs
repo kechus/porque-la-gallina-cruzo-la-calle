@@ -30,13 +30,15 @@ public class Shake : MonoBehaviour
         originalPos = camTransform.localPosition;
 	}
 
-    private void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-    }
-
     void Update()
 	{
+		if (player == null)
+		{
+			player = GameObject.FindGameObjectWithTag("Player");
+			return;
+		}
+		
+
 		if (shakeDuration > 0)
 		{
 			camTransform.position = new Vector3(player.transform.position.x, originalPos.y, -10) + Random.insideUnitSphere * shakeAmount;
