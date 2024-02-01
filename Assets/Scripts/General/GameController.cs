@@ -40,7 +40,44 @@ public class GameController : MonoBehaviour
             {
                 MusicController.PlayRoster();
                 Invoke(nameof(StartGame), 2.5f);
+                return;
             }
+        }
+
+        var key1 = Input.GetKeyDown(KeyCode.F1);
+        var key2 = Input.GetKeyDown(KeyCode.F2);
+        var key3 = Input.GetKeyDown(KeyCode.F3);
+        var key4 = Input.GetKeyDown(KeyCode.F4);
+        var key5 = Input.GetKeyDown(KeyCode.F5);
+        var key6 = Input.GetKeyDown(KeyCode.F6);
+
+        if(key1){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 1");
+            return;
+        }
+        if(key2){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 2");
+            return;
+        }
+        if(key2){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 3");
+            return;
+        }
+        if(key3){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 4");
+            return;
+        }
+        if(key4){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 5");
+            return;
+        }
+        if(key5){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel 6");
+            return;
+        }
+        if(key6){
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Creditos");
+            return;
         }
     }
 
