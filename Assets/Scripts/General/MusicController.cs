@@ -37,6 +37,6 @@ public class MusicController : MonoBehaviour
     public static void PlayGameTheme()
     {
         instance.GetComponent<AudioSource>().clip = instance.GameTheme;
-        instance.GetComponent<AudioSource>().Play(0);
+        // instance.GetComponent<AudioSource>().Play(0);
     }
 }
